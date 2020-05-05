@@ -1,0 +1,20 @@
+.icons-text {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.icon-text {
+  display: flex;
+  align-items: center;
+}
+
+.icon-text:not(:last-child) {
+  margin-right: 10px;
+}
+
+.icon-text img,
+.icon-text svg {
+  margin-right: 4px;
+  width: 30px;
+}
