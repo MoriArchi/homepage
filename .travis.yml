@@ -1,0 +1,25 @@
+language: node_js
+node_js:
+  - 11.13.0
+script:
+  - npm install --global workbox-cli
+  - workbox generateSW workbox-config.js
+deploy:
+  - provider: s3
+    skip_cleanup: true
+    access_key_id: $ACCESS_KEY_ID
+    secret_access_key: $SECRET_ACCESS_KEY
+    bucket: "moriarchi.github.io-staging"
+    region: eu-west-3
+    acl: public_read
+    on:
+      branch: develop
+  - provider: s3
+    skip_cleanup: true
+    access_key_id: $ACCESS_KEY_ID
+    secret_access_key: $SECRET_ACCESS_KEY
+    bucket: "moriarchi.github.io-production"
+    region: eu-west-3
+    acl: public_read
+    on:
+      branch: master
