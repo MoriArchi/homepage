@@ -64,7 +64,7 @@
                 <div class="stackable grid">
                   <div class="sixteen wide column">
                     <h1 class="name">Ryu Hoshi (リュウ Ryū)</h1>
-                    <div class="job">NON-fictional(^-^) character and the main protagonist of Capcom's Street Fighter series</div>
+                    <div class="job">NON-fictional(^-^) street fighter</div>
                     <ul class="contacts">
                       <li>
                         <a href="https://www.facebook.com/profile.php?id=100004808958030" class="facebook">
@@ -396,22 +396,22 @@
         </div>
       </article>
     </main>
+    <footer>
+      <strong>А люди ведь сейчас такие... &nbsp;🐺Согласны одни, узнали другие</strong>&nbsp;🐺
+    </footer>
+    <script>
+      function switchToColor(color) {
+        try {
+          document.querySelectorAll(".page").forEach(function(page) {
+            page.style.borderColor = color;
+          });
+          document.querySelectorAll(".avatar").forEach(function(avatar) {
+            avatar.contentDocument.getElementById("circle").setAttribute("fill", color);
+          });
+        } catch (error) {}
+      }
+      document.getElementById("brown").addEventListener("click", switchToColor.bind(this, "brown"));
+      document.getElementById("cyan").addEventListener("click", switchToColor.bind(this, "cyan"));
+    </script>
   </body>
-  <footer>
-    <strong>Кто прочитал тот выступит в цирке</strong>&nbsp;🐺
-  </footer>
-  <script>
-    function switchToColor(color) {
-      try {
-        document.querySelectorAll(".page").forEach(function(page) {
-          page.style.borderColor = color;
-        });
-        document.querySelectorAll(".avatar").forEach(function(avatar) {
-          avatar.contentDocument.getElementById("circle").setAttribute("fill", color);
-        });
-      } catch (error) {}
-    }
-    document.getElementById("brown").addEventListener("click", switchToColor.bind(this, "brown"));
-    document.getElementById("cyan").addEventListener("click", switchToColor.bind(this, "cyan"));
-  </script>
 </html>
