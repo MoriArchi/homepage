@@ -9,3 +9,7 @@ body {
 .color.cyan::before {
   background-color: cyan;
 }
+
+.main-margin {
+  margin-bottom: 50vh;
+}
