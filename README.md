@@ -10,8 +10,10 @@ a lot of money on the Internet, and a whole lot less getting punched in the face
 I created a little website to market my personal brand, then maybe i will sell a few t-shirts, nunchucks, that sort of thing ― 
 I think it’ll be a big hit (TO THE SOLAR PLEXUS IYKWIM HAHAHA!.. woo, goddamn, I love hitting people...). 
 Anyhow, here's what I wanted to create ― for starters just a quick intro page to let me know what I’m all about.  
-Thanks for reading, man , I’m off to the Shaolin temple for a few weeks (teambuilding excersice, such b*llshit, ugh). 
-And remember, winners never lose! ✌Peace!
+Thanks for reading, man , I’m off to the Shaolin temple for a few weeks (teambuilding excersice, such bullshit, ugh).
+
+_And remember, winners never lose! ✌Peace!_
+
 ------
 Oops, forgot to talk about the technical part 😅
 
