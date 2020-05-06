@@ -13,3 +13,7 @@ body {
 .main-margin {
   margin-bottom: 50vh;
 }
+
+.text-align-center {
+  text-align: center
+}
