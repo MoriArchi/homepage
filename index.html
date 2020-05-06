@@ -10,6 +10,7 @@
 
       gtag('config', 'UA-165595486-1');
     </script>
+    <script src="scripts/switch-to-color.js"></script>
     <meta charset="UTF-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="description" content="My very own personal website.">
@@ -28,17 +29,17 @@
     <meta property="og:image:height" content="1800">
     <meta property="og:image:type" content="image/png">
     <meta property="og:image:width" content="2880">
-    <meta property="og:image" content="./assets/images/og-image.en_US.png">
+    <meta property="og:image" content="./images/og-image.en_US.png">
     <meta property="og:locale" content="en_US">
     <meta property="og:title" content="Ryu Hoshi (リュウ Ryū) — Résumé">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://moriarchi.github.io/homepage/">
     <base href=".">
     <title>Ryu Hoshi (リュウ Ryū) — Résumé</title>
-    <link rel="icon" type="image/x-icon" href="./assets/images/favicon.ico">
-    <link rel="icon" type="image/png" sizes="192x192" href="./assets/images/favicon-192x192.png">
-    <link rel="icon" type="image/png" sizes="512x512" href="./assets/images/favicon-512x512.png">
-    <link rel="manifest" href="./vendor/manifest.json">
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <link rel="icon" type="image/png" sizes="192x192" href="images/favicon-192x192.png">
+    <link rel="icon" type="image/png" sizes="512x512" href="images/favicon-512x512.png">
+    <link rel="manifest" href="manifest.json">
     <link rel="me" href="https://www.facebook.com/profile.php?id=100004808958030" type="text/html">
     <link rel="me" href="mailto:ryuwins@gmail.com">
     <link rel="me" href="https://twitter.com/denjinryu" type="text/html">
@@ -50,14 +51,14 @@
     <link rel="stylesheet" href="./css/typography.css">
   </head>
   <body>
-    <main>
+    <main class="main-margin">
       <article>
         <div class="page" style="border-color: #A52A2A;">
           <div class="stackable grid">
             <div class="row">
               <div class="five wide center aligned column">
                 <div class="avatar-wrapper">
-                  <img class="avatar" src="./assets/images/avatar.png" alt="Ryu avatar" aria-label="Ryu profile picture"></img>
+                  <img class="avatar" src="images/avatar.png" alt="Ryu avatar" aria-label="Ryu profile picture">
                 </div>
               </div>
               <div class="eleven wide column">
@@ -280,8 +281,8 @@
                   </ul>
                 </section>
                 <section>
+                  <h3>Publications</h3>
                   <ul class="timeline">
-                    <h3>Publications</h3>
                     <li>
                       <p><em>2011</em></p>
                       <p>
@@ -374,15 +375,15 @@
                   <p class="tags small">You must defeat <strong>Sheng Long</strong> to stand a chance.</p>
                 </section>
                 <section>
-                  <h3>Likes &#x1f603</h3>
+                  <h3>Likes &#x1f603;</h3>
                   <p class="tags small">GI VEGETABLES BLOOD <span class="nowrap">SMALL MARSHMELLOWS</span> <button id="brown" class="color brown">RED COLOR</button> <span class="nowrap">KILLED ENEMY</span></p>
                 </section>
                 <section>
-                  <h3>Dislikes &#x1f61e</h3>
+                  <h3>Dislikes &#x1f61e;</h3>
                   <p class="tags small">BISONS GHOSTS SMARTPHONES <button id="cyan" class="color cyan">SMELL OF SEAFOOD</button> <span class="nowrap">BARBER SHOPS</span> SLEEVES</p>
                 </section>
                 <section>
-                  <h3>WANTS &#x1f97a</h3>
+                  <h3>WANTS &#x1f97a;</h3>
                   <p class="tags small bulleted">
                     <span class="tag">BE FIT</span>
                     <span class="tag">WRITE MORE BOOKS</span>
@@ -397,21 +398,12 @@
       </article>
     </main>
     <footer>
-      <strong>А люди ведь сейчас такие... &nbsp;🐺Согласны одни, узнали другие</strong>&nbsp;🐺
+      <p align="center">
+        <strong>
+          А люди ведь сейчас такие... &nbsp;&#128058;Согласны одни, узнали другие &#128058;
+          <br> Ну что, вы в нокауте?&#129354;
+        </strong>
+      </p>
     </footer>
-    <script>
-      function switchToColor(color) {
-        try {
-          document.querySelectorAll(".page").forEach(function(page) {
-            page.style.borderColor = color;
-          });
-          document.querySelectorAll(".avatar").forEach(function(avatar) {
-            avatar.contentDocument.getElementById("circle").setAttribute("fill", color);
-          });
-        } catch (error) {}
-      }
-      document.getElementById("brown").addEventListener("click", switchToColor.bind(this, "brown"));
-      document.getElementById("cyan").addEventListener("click", switchToColor.bind(this, "cyan"));
-    </script>
   </body>
 </html>
