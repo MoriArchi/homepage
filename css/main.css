@@ -1,9 +1,11 @@
 body {
   font-family: "ALS Sector", Lato, sans-serif;
 }
-.color.brown:before {
+
+.color.brown::before {
   background-color: brown;
 }
-.color.cyan:before {
+
+.color.cyan::before {
   background-color: cyan;
 }
