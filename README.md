@@ -43,7 +43,7 @@ fi
 ------
 ## Demo 
 * [AWS](https://s3.console.aws.amazon.com/s3/buckets/moriarchi.github.io-production/?region=eu-west-3 "AWS")
-* [Now](https://homepage-fjzmh1c3t.now.sh/ "Now")
+* [Now](https://moriarchi-homepage.now.sh/ "Now")
 * [GitHub Pages](https://moriarchi.github.io/homepage/ "GitHub Pages")
 ## Preview
 ![preview](images/og-image.en_US.png)
